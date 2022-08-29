@@ -10,19 +10,19 @@ What is version control?
 
 
 ## Terminologies used in Git and their meaning
-Directory --> Folder
-Terminal --> Interface for text command
-CLI --> Command line Interface
-cd --> Change of directory
-repository --> Project or the folder where the project files are kept.
-Github --> A website that host the repository remote.
+- Directory --> Folder
+- Terminal --> Interface for text command
+- CLI --> Command line Interface
+- cd --> Change of directory
+- repository --> Project or the folder where the project files are kept.
+- Github --> A website that host the repository remote.
 
 ### Common Git Command 
-clone --> bringing the repository hosted in same websites like Github into a folder on a local machine.
-add --> Command helps to track the changes to git
-commit --> Saving the file to the git
-push --> uploading the commits to the remote repository.
-pull --> Download the changes made from remote repository to your local pc.
+- clone --> bringing the repository hosted in same websites like Github into a folder on a local machine.
+- add --> Command helps to track the changes to git
+- commit --> Saving the file to the git
+- push --> uploading the commits to the remote repository.
+- pull --> Download the changes made from remote repository to your local pc.
 
 
 On the Github the changes made can be seen commits section on github.
@@ -31,7 +31,7 @@ On the Github the changes made can be seen commits section on github.
 This command can be used download the repository to the local machine to a given path. 
 
 Command to use - `git clone`
-how to use it - `git clone <link>`
+<br>how to use it - `git clone <link>`
 
 Add the link at the end of git clone command so once git will clone the repository from given link `https://github.com/Kishores2801/My-Weekly-Datascience-Learning.git`
 
@@ -40,19 +40,19 @@ Add the link at the end of git clone command so once git will clone the reposito
 Before making a commit always we need to track the changes that are made documents.
 
 To get a snapshot of repository in local machine
-Command to use - `git status`
+<br>Command to use - `git status`
 
 This command will give the changes that are tracked and untracked in the repository.
 
 To track the files 
-Command to use - `git add`
+<br>Command to use - `git add`
 
 how to use it - `git add .` this command can be used to track all the changes made on the repository.
-how to use it - `git add <file_name>`  this command allows only add particular files.
+<br>how to use it - `git add <file_name>`  this command allows only add particular files.
 
 ## Saving the changes made on git
 The changes can be added to the git remote repository.
-Command to use  - `git commit`
+<br>Command to use  - `git commit`
 
 -m - command used for messages (what or why the changes made)
 
@@ -64,48 +64,48 @@ how to use it - `git commit -m "your message" -m "description"`
 
 ## Pushing the changes to github
 To push the file we need to use these command
-Command to use  - `git push`
+<br>Command to use  - `git push`
 
 how to use - `git push orgin main`
-how to use - `git push <your link>`
+<br>how to use - `git push <your link>`
 
 to  make the path to push as default
 
 how to use - `git push -u orgin main`
-how to use - `git push -u <your link>`
+<br>how to use - `git push -u <your link>`
 
 ## creating a repository locally
 
 To initialize a git repository locally
-Command to use  - `git init`
+<br>Command to use  - `git init`
 
 To add remote repository to locally
-command to use - `git remote add orgin <your_link>`
+<br>command to use - `git remote add orgin <your_link>`
 
 To check whether the file is connected
-command to use - `git remote -v`
+<br>command to use - `git remote -v`
 
 
 ## Git Branching
 The branching process can help to keep the changes separate which can be used to add when adding new features and test those features. once the testing is finalized the branch can be merged.
 
 To check the current branch you are on
-command to use - `git branch`
+<br>command to use - `git branch`
 
 To create a new branch in repository
-command to use - `git checkout -b feature <branch_name>`
+<br>command to use - `git checkout -b feature <branch_name>`
 
 Merging a feature branch/ hotfix branch with main branch
-command to use - `git merge <branch_name>`
+<br>command to use - `git merge <branch_name>`
 
 ## Undoing a change made
-command use - `git reset`
+<br>command use - `git reset`
 
 to undo a commit made
-command use - `git reset HEAD ~1`
+<br>command use - `git reset HEAD ~1`
 
 We can also revert the change made to previous change made by giving the referral hash value for commit as
 To get the value hash values
-command to use - `git log`
+<br>command to use - `git log`
 
 and then give `git reset --hard <SHA-1>`
