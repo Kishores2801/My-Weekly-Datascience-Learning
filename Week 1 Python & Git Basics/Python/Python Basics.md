@@ -11,4 +11,4 @@ What is python?
 
 
 
-Cheat Sheet: https://www.pythoncheatsheet.org/
+Cheat Sheets: https://www.pythoncheatsheet.org/
